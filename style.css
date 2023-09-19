@@ -4,16 +4,37 @@
     box-sizing: border-box;
 }
 
+
+
 body {
-    background-color:azure 
+    background-color: aliceblue;
 }
 
 h1 {
-    background-color:azure 
-    color: aliceblue;
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
 }
 
 nav {
-    background-color:azure
+    background-color: lightgreen;
     color: aliceblue;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li{
+    margin: 1em;
+}
+
+li a:hover{
+    background-color: red;
+}
+
+li a{
+    color: black;
 }
