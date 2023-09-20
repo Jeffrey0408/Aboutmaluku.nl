@@ -32,12 +32,12 @@ li{
 }
 
 li a:hover{
-    background-color: red;
+    background-color: lightcoral;
 }
 
 li a{
+    display: block;
     color: black;
-    margin: 15;
-    padding: 15;
-    box-sizing: border-box 40;
+    box-sizing: border-box 1em;
+    padding: 1em;
 }
