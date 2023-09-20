@@ -25,6 +25,7 @@ ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
+    color: aqua;
 }
 
 li{
@@ -40,4 +41,9 @@ li a{
     color: black;
     box-sizing: border-box 1em;
     padding: 1em;
+    font-size: 1.2em;
+}
+
+p{
+    font-size: 1em
 }
