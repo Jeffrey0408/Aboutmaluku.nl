@@ -66,10 +66,10 @@ h2 {
 
 p {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     box-sizing: border-box 1em;
-    padding: 1em;
-    width: 20%;
+    padding: 0.5em;
+    
 }
 
 .eilanden {
@@ -85,4 +85,14 @@ footer {
     align-items: flex-end;
     background-color: lightcoral;
 }
+
+.info{
+    display: flex;
+    justify-content: center;
+}
              
+.info > div{ 
+    margin: 1em;
+    background-color: lightblue;
+    width: 40%;
+}
