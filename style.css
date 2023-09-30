@@ -36,6 +36,7 @@ nav {
     flex-direction: row;
     justify-content: center;
     margin: auto;
+    transition: 4s;
 }
 
 ul {
@@ -73,17 +74,48 @@ p {
     
 }
 
-.regering 
-
-.eilanden {
+img { 
     display: flex;
-    justify-content: space-around;  
-    width: 40%;
+    justify-content: center;
+    width: 20%;
 }
+
 
 footer { 
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
     background-color: lightcoral;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home div{
+    width: 30%;
+    padding: 2em;
+    background-color: white;
+    margin-left: 3em;
+    margin-right: 3em;
+
+}
+
+.home h3 {
+    text-align: center;
+}
+
+.home img {
+    width: 100%;
+}
+
+.home p { 
+    margin-bottom: 1em;
 }
