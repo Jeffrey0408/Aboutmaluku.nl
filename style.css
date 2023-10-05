@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: white
 }
 
 /* HEADER */
@@ -13,7 +13,10 @@ body {
 header {
     background-color: lightblue;
     display: flex;
-    flex-wrap: wrap; 
+}
+
+h1 .logo { 
+    max-width: 4%;
 }
 
 h1 {
@@ -27,9 +30,7 @@ h1 a{
     text-decoration: none;
 }
 
-.logo { 
-    width: 4%;
-}
+/* hier begint nav */
 
 nav {
     display: flex;
@@ -37,75 +38,64 @@ nav {
     justify-content: center;
     margin: auto;
     transition: 4s;
+    text-decoration: none;
 }
 
 ul {
     display: flex; 
     justify-content: space-around; 
-    list-style-type: none;
+   
 }
 
 li {
-    margin: 0.5em;
+    margin: 0.5em; 
+    list-style-type: none;
 }
 
 li a:hover{
     background-color: white;
-    border-radius: 20%;
+    border-radius: 10%;
 }
 
 li a {
     display: block;
     color: black;
-    box-sizing: border-box 1em;
     padding: 1em;
+    list-style-type: none;
 }
 
-h2 {
-    box-sizing: border-box 0.5em;
-    padding: 0.5em;
-}
-
-p {
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box 1em;
-    padding: 0.5em;
-    
-}
-
-img { 
-    display: flex;
-    justify-content: center;
-    width: 20%;
-}
-
-
-footer { 
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    background-color: lightcoral;
-}
-
+/* hier eindigt de nav */
 
 h2 {
     display: flex;
     justify-content: center;
+    padding: .5em; 
 }
+
+.inleidingstekst {
+    display: flex;
+    justify-content: center;
+    margin: 4%;
+    background-color: lightgreen;
+}
+
+/* Hier begint de home section */
 
 .home {
     display: flex;
-    justify-content: space-between;
-}
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+    margin: 1em;
+} 
 
-.home div{
-    width: 30%;
+.home section {
+    display: flex;
+    justify-content: center;
     padding: 2em;
-    background-color: white;
-    margin-left: 3em;
-    margin-right: 3em;
-
+    margin: 1em;
+    background-color: aliceblue;
+    border-style: solid;
 }
 
 .home h3 {
@@ -113,9 +103,46 @@ h2 {
 }
 
 .home img {
-    width: 100%;
+    max-width: 30%;
 }
 
 .home p { 
+    margin: 1em
+}
+
+/* Hier begint de Geschiedenis section */
+
+.geschiedenis {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    padding: 2em;
+    border-style: solid;
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-bottom: 5em;
+    background-color: aliceblue
+}
+
+.geschiedenis section {
+    padding: 1em;
+}
+
+.geschiedenis img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: 14em;
+    margin-right: 7em;
+    margin-top: 3em;
     margin-bottom: 1em;
+}
+
+
+
+footer { 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: lightcoral;
 }
