@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: white
+    background-color: whitesmoke
 }
 
 /* HEADER */
@@ -21,13 +21,21 @@ h1 .logo {
 
 h1 {
     text-align: center;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 10px;
 }
 
 h1 a{
     color: black;
     text-decoration: none;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-style: italic;
+    margin: .5em;
 }
 
 /* hier begint nav */
@@ -44,7 +52,6 @@ nav {
 ul {
     display: flex; 
     justify-content: space-around; 
-   
 }
 
 li {
@@ -63,6 +70,7 @@ li a {
     padding: 1em;
     list-style-type: none;
 }
+
 
 /* hier eindigt de nav */
 
@@ -87,6 +95,8 @@ h2 {
     flex-direction: column;
     padding: 1em;
     margin: 1em;
+    margin-left: 10em;
+    margin-right: 10em;
 } 
 
 .home section {
@@ -110,34 +120,99 @@ h2 {
     margin: 1em
 }
 
-/* Hier begint de Geschiedenis section */
+/* Hier begint de pagina geschiendis section */
 
-.geschiedenis {
+.history {
     display: flex;
     justify-content: center; 
     flex-direction: column;
     padding: 2em;
     border-style: solid;
+    margin: 5em;
     margin-left: 7em;
     margin-right: 7em;
     margin-bottom: 5em;
     background-color: aliceblue
 }
 
-.geschiedenis section {
-    padding: 1em;
+.history section {
+    margin: 1em;
 }
 
-.geschiedenis img {
+
+.history img {
     display: flex;
     justify-content: center;
     width: 50%;
-    margin-left: 14em;
+    margin-left: 16em;
     margin-right: 7em;
-    margin-top: 3em;
-    margin-bottom: 1em;
 }
 
+.history p {
+    margin: .75em;
+}
+
+/* hier begint de pagina onafhankelijkheid */
+
+.onafhankelijkheidsstrijd {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    padding: 2em;
+    border-style: solid;
+    margin: 3em;
+    margin-left: 20em;
+    margin-right: 20em;
+    background-color: white
+}
+
+.onafhankelijkheidsstrijd img {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    margin-left: 14em;
+    margin-top: 1em;
+}
+
+.onafhankelijkheidsstrijd h3 {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+/* hier begint de pagina contact */
+
+.mail {
+    display: flex;
+    justify-content: center;
+
+}
+
+.mail section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    border-style: solid;
+    padding: 2em;
+    margin: 2em;
+}
+    
+.mail img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mail p{
+    display: flex;
+    justify-content: center;
+}
+
+.mail h3 {
+    display: flex;
+    justify-content: center;
+}
 
 
 footer { 
