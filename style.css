@@ -22,7 +22,7 @@ h1 .logo {
 h1 {
     text-align: center;
     background-color: whitesmoke;
-    padding: 10px;
+    padding: 10px
 }
 
 h1 a{
@@ -46,7 +46,7 @@ nav {
     justify-content: center;
     margin: auto;
     transition: 4s;
-    text-decoration: none;
+    
 }
 
 ul {
@@ -57,7 +57,7 @@ ul {
 li {
     margin: 0.5em; 
     list-style-type: none;
-}
+}    
 
 li a:hover{
     background-color: white;
@@ -69,6 +69,7 @@ li a {
     color: black;
     padding: 1em;
     list-style-type: none;
+    text-decoration: none;
 }
 
 
@@ -83,8 +84,6 @@ h2 {
 .inleidingstekst {
     display: flex;
     justify-content: center;
-    margin: 4%;
-    background-color: lightgreen;
 }
 
 /* Hier begint de home section */
@@ -124,28 +123,26 @@ h2 {
 
 .history {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     flex-direction: column;
     padding: 2em;
     border-style: solid;
     margin: 5em;
-    margin-left: 7em;
-    margin-right: 7em;
-    margin-bottom: 5em;
     background-color: aliceblue
+}
+
+.history figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history img {
+    width: 75%;
 }
 
 .history section {
     margin: 1em;
-}
-
-
-.history img {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    margin-left: 16em;
-    margin-right: 7em;
 }
 
 .history p {
@@ -166,12 +163,15 @@ h2 {
     background-color: white
 }
 
-.onafhankelijkheidsstrijd img {
-    width: 35%;
+.onafhankelijkheidsstrijd figure {
     display: flex;
-    justify-content: center;
-    margin-left: 14em;
-    margin-top: 1em;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+}
+
+.onafhankelijkheidsstrijd img {
+    width: 100%;
 }
 
 .onafhankelijkheidsstrijd h3 {
@@ -185,7 +185,11 @@ h2 {
 .mail {
     display: flex;
     justify-content: center;
+}
 
+.mail h2 {
+    display: flex;
+    justify-content: center;
 }
 
 .mail section {
