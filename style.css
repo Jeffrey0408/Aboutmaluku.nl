@@ -44,11 +44,11 @@ nav {
     display: flex;
     flex-direction: row;
     transition: 4s;
+    margin: auto;
 } 
 
 ul {
     display: flex; 
-    justify-content: center
 }
 
 li {
