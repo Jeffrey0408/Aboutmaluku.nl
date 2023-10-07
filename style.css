@@ -139,6 +139,7 @@ h2 {
 
 .history img {
     width: 75%;
+    border-style: solid;
 }
 
 .history section {
@@ -167,11 +168,13 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-style: solid;
+    
+    margin: 1em;
 }
 
 .onafhankelijkheidsstrijd img {
     width: 100%;
+    border-style: solid;
 }
 
 .onafhankelijkheidsstrijd h3 {
@@ -187,11 +190,6 @@ h2 {
     justify-content: center;
 }
 
-.mail h2 {
-    display: flex;
-    justify-content: center;
-}
-
 .mail section {
     display: flex;
     justify-content: center;
@@ -203,9 +201,7 @@ h2 {
 }
     
 .mail img {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
+    width: 100%;
 }
 
 .mail p{
@@ -216,6 +212,24 @@ h2 {
 .mail h3 {
     display: flex;
     justify-content: center;
+    padding: .5em;
+}
+
+.mail a {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    margin: .5em;
+    text-decoration: none;
+    border-radius: 20%;
+    background-color: skyblue;
+    color: black
+}
+
+.mail a:hover {
+    background-color: white;
+    color: white;
+    border-radius: 20%;
 }
 
 
