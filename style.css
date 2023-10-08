@@ -13,6 +13,7 @@ body {
 header {
     background-color: lightblue;
     display: flex;
+    align-content: flex-end;
 }
 
 h1 .logo { 
@@ -53,14 +54,12 @@ ul {
 
 li {
     margin: 0.5em; 
-    list-style-type: none;
     display: flex;
-    align-items: center;
 }    
 
 li a:hover{
     background-color: white;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 li a {
@@ -128,7 +127,7 @@ h2 {
     padding: 2em;
     border-style: solid;
     margin: 5em;
-    background-color: aliceblue
+    background-color: aliceblue;
 }
 
 .history figure {
@@ -138,7 +137,7 @@ h2 {
 }
 
 .history img {
-    width: 75%;
+    width: 50%;
     border-style: solid;
 }
 
@@ -154,13 +153,15 @@ h2 {
 
 .onafhankelijkheidsstrijd {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     flex-direction: column;
     padding: 2em;
     border-style: solid;
-    margin: 3em;
-    margin-left: 20em;
-    margin-right: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 50%;
     background-color: white
 }
 
@@ -172,14 +173,15 @@ h2 {
 }
 
 .onafhankelijkheidsstrijd img {
-    width: 100%;
+    width: 80%;
     border-style: solid;
+    align-items: center;
 }
 
 .onafhankelijkheidsstrijd h3 {
     display: flex;
     justify-content: center;
-    margin: 1em;
+    padding: 1em;
 }
 
 /* hier begint de pagina contact */
@@ -209,6 +211,7 @@ h2 {
     
 .mail img {
     width: 50%;
+    min-width: 25%;
     display: flex;
     margin: auto;
 }
